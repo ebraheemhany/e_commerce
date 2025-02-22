@@ -1,0 +1,152 @@
+
+.NewsLetter {
+width: 65%;
+height: 40vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+margin: auto;
+padding: 0 140px;
+margin-bottom: 100px;
+background: linear-gradient(180deg , #ecc8ec , #e1ffea22 60%);
+gap: 30px;
+
+
+}
+.NewsLetter h1 {
+color: #454545;
+font-size: 55px;
+font-weight: 500;
+
+
+}
+.NewsLetter p {
+color: #454545;
+font-size: 20px;
+
+}
+.NewsLetter div {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+width: 730px;
+height: 70px;
+border-radius: 50px;
+border:  1px solid #e3e3e3;
+}
+.NewsLetter div input {
+width: 500px;
+margin-left: 30px;
+border: none;
+outline: none;
+color: #616161;
+font-size: 16px;
+}
+.NewsLetter div button {
+width: 210px;
+height: 70px;
+border-radius: 80px;
+background-color: black;
+color: white;
+cursor: pointer;
+font-size: 20px;
+
+}
+
+@media(max-width:1300px){
+    .NewsLetter {
+        width: 80%;
+    }
+}
+@media(max-width:1100px){
+    .NewsLetter h1 {
+        font-size: 35px;
+    }
+    .NewsLetter {
+        padding: 0 100px;
+    }
+}
+@media(max-width:950px) {
+    .NewsLetter div {
+    width: 530px;
+  height: 50px;
+    }
+    .NewsLetter div button {
+  width: 160px;
+  height: 50px;
+  font-size: 18px;
+    }
+    .NewsLetter {
+        padding: 0 50px;
+    }
+
+}
+@media(max-width:822px) {
+    .NewsLetter {
+        width: 92%;
+    }
+    .NewsLetter h1 {
+        font-size: 28px;
+    }
+    .NewsLetter p {
+        font-size: 18px;
+    }
+
+}
+@media(max-width:600px) {
+    .NewsLetter {
+        padding: 0 10px;
+    }  
+    .NewsLetter div {
+        width: 90%;
+    }
+    .NewsLetter {
+        width: 98%;
+    }
+}
+
+@media(max-width:481px) {
+    .NewsLetter h1  {
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .NewsLetter div {
+        width: 98%;
+    }
+    .NewsLetter div button {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:350px) {
+    .NewsLetter div button {
+        width: 80px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    .offers_left p {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+
+.Login_sign {
+width: 100%;
+height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Login_sign .Login_container {
+background-color: rgb(255, 255, 255);
+width: 35%;
+box-shadow:0 0 5px black;
+border-radius: 10px;
+
+}
+.Login_sign .Login_container h1 {
+text-align: center;
+color: rgba(0, 0, 0, 0.589);
+margin: 20px 0;
+}
+.Logn_fildes {
+display: flex;
+flex-direction: column;
+width: 80%;
+margin: auto;
+}
+.Logn_fildes input {
+margin: 10px 0;
+padding: 12px;
+border: none;
+outline: none;
+background-color: rgba(181, 187, 192, 0.336);
+border-radius: 5px;
+}
+.Login_sign .Login_container button {
+    display: flex;
+    justify-content: center;
+width: 25%;
+margin:10px auto; 
+padding: 10px 0;
+font-size: 18px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 8px;
+box-shadow: 0 0 5px black;
+}
+.Login_account {
+margin: 10px 0 10px 55px;
+font-size: 15px ;
+color: rgba(0, 0, 0, 0.678);
+font-weight: 500;
+}
+.Login_account span {
+font-size: 16px;
+font-weight: 600;
+color: rgb(26, 124, 141);
+cursor: pointer;
+
+}
+.Login_agree  {
+display: flex;
+gap: 10px;
+align-items: center;
+margin: 10px 55px;
+font-size: 15px;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.747);
+
+}
+
+@media(max-width:1250px) {
+    .Login_sign .Login_container{
+        width: 45%;
+    }
+}
+@media(max-width:1000px) {
+    .Login_sign .Login_container{
+        width: 55%;
+    }
+}
+@media(max-width:850px) {
+    .Login_sign .Login_container{
+        width: 65%;
+    }
+}
+@media(max-width:650px) {
+    .Login_sign .Login_container{
+        width: 80%;
+    }
+}
+@media(max-width:530px) {
+    .Login_sign .Login_container{
+        width: 85%;
+    }
+    .Login_account {
+font-size: 12px;
+margin: 10px 0 10px 35px;
+    }
+    .Login_agree {
+        margin: 10px 30px;
+        font-size: 12px;
+    }
+}
+@media(max-width:450px){
+    .Login_sign .Login_container{
+        width: 92%;
+    }
+    .Logn_fildes {
+        width: 90%;
+    }
+
+}
+@media(max-width:350px) {
+    .Login_sign .Login_container{
+        width: 98%;
+    }
+    .Logn_fildes {
+        width: 95%;
+    }
+    .Login_sign .Login_container button {
+        font-size: 13px;
+    }
+    .Login_account {
+        
+        margin: 10px 0 10px 15px;
+            }
+            .Login_agree {
+                margin: 10px 10px;
+                
+            }
+}
+
+
+
+
+
+
+
+
+
+
+
+

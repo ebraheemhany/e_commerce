@@ -1,0 +1,154 @@
+.Shop_Category {
+width: 85%;
+margin: auto;
+
+}
+.shopcategory_banner {
+display:block;
+margin: 35px auto;
+width: 92%;
+
+
+}
+.shop_category_indexSort {
+display: flex;
+margin: 0px 80px;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.shop_category_indexSort p {
+font-size: 18px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.733);
+}
+
+.shop_category_indexSort p span {
+font-size: 20px;
+font-weight: 600;
+color: rgba(0, 0, 0, 0.801);
+
+}
+.shopcategory_sort {
+border: 1px solid rgba(128, 128, 128, 0.76);
+padding: 10px 20px;
+border-radius: 40px;
+cursor: pointer;
+
+}
+.shopCategory_products {
+padding: 30px 10px;
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+row-gap: 80px;
+column-gap: 20px;
+align-items: center;
+
+}
+.shopCategory_loadMore {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 100px auto;
+background-color: rgba(95, 95, 95, 0.521);
+width: 200px;
+height: 50px;
+border-radius: 30px;
+cursor: pointer;
+color: rgb(29, 29, 29);
+
+}
+
+@media(max-width:1100px){
+    .shopcategory_banner {
+width: 96%;
+
+    }
+    .Shop_Category {
+width: 92%;
+
+    }
+
+
+}
+@media(max-width:900px) {
+    .shopCategory_products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width:750px) {
+    .shop_category_indexSort {
+        margin: 0 20px;
+    }
+    .shopcategory_banner {
+        width: 98%;
+        
+            }
+            .Shop_Category {
+                width: 98%;
+            }
+
+}
+@media(max-width:650px) {
+    .shopCategory_products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media(max-width:480px){
+    .shop_category_indexSort p{
+        font-size: 16px;
+    }
+    .shop_category_indexSort p span{
+        font-size: 18px;
+    }
+    .shopcategory_sort {
+      padding: 7px 13px;
+      font-size: 16px;
+
+    }
+    .shop_category_indexSort {
+        margin: 0 10px;
+    }
+ 
+
+}
+@media(max-width:400px) {
+    .shopCategory_products {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+    }
+    .shop_category_indexSort p{
+        font-size: 13px;
+    }
+    .shop_category_indexSort p span{
+        font-size: 16px;
+    }
+    .shopcategory_sort {
+        padding: 5px 10px;
+        font-size: 13px;
+  
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

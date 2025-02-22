@@ -1,0 +1,13 @@
+.Pro_item{
+  
+display: flex;
+align-items: center;
+gap: 8px;
+margin: 40px 90px;
+font-size: 18px;
+color: rgba(0, 0, 0, 0.74);
+font-weight: 500;
+text-transform: capitalize;
+}
+
+

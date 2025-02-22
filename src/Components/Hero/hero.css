@@ -1,0 +1,168 @@
+.hero {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: linear-gradient(180deg, #fde1ff , #e1ffea22 60%);
+font-family: "Lato", serif;
+overflow: hidden;
+}
+
+.hero .hero_left {
+padding-left: 180px;
+line-height: 1.1;
+/* flex: 1; */
+
+}
+.hero .hero_left h2 {
+color: #090909;
+font-size: 26px;
+font-weight: 600;
+}
+
+.hero .hero_left p {
+color: #171717;
+font-size: 100px;
+font-weight: 700;
+
+}
+.hero .hero_left button {
+
+
+
+}
+
+.hero_hand_icon {
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.hero_hand_icon img {
+width: 105px;
+
+}
+.hero_lastest_collection {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+background-color: rgba(131, 3, 3, 0.877);
+width: 280px;
+height: 55px;
+margin-top: 30px;
+text-align: center;
+border-radius: 50px;
+color: whitesmoke;
+cursor: pointer;
+font-size: 22px;
+font-weight: 500;
+
+}
+.hero_lastest_collection img {
+    width: 25px;
+}
+.hero_right {
+/* flex: 1; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media(max-width:1300px){
+    .hero .hero_left {
+        padding-left: 100px;
+    }
+
+}
+@media(max-width:1220px) {
+    .hero .hero_left p {
+        font-size: 80px;
+    }
+    .hero_right img {
+        width: 90%;
+     
+         }
+
+}
+@media(max-width:1070px) {
+    .hero_right img {
+   width: 80%;
+
+    }
+    .hero .hero_left {
+        margin: 50px 0;
+    }
+
+}
+@media(max-width:950px) {
+    .hero .hero_left p {
+        font-size: 60px;
+    }
+    .hero .hero_left {
+        padding-left: 70px;
+    }
+    .hero_lastest_collection {
+width: 220px;
+height: 48px;
+font-size: 18px;
+
+    }
+
+}
+@media(max-width:850px) {
+    .hero_right {
+position: relative;
+left: 80px;
+    }
+}
+@media(max-width:750px) {
+    .hero_right {
+        left: 40px;
+            }
+    .hero .hero_left {
+        padding-left: 0px;
+    }
+    .hero .hero_left p {
+        font-size: 35px;
+    }
+    .hero_hand_icon img {
+        width: 80px;
+    }
+
+
+}
+@media(max-width:550px){
+.hero_right {
+    display: none;
+}
+.hero .hero_left {
+  margin: 20px auto;
+  text-align: center;
+
+}
+.hero .hero_left h2 {
+font-size: 32px;
+font-weight: 600;
+}
+.hero .hero_left p {
+    font-size: 60px;
+}
+.hero_hand_icon {
+
+    justify-content: center;
+}
+.hero_lastest_collection{
+    margin:30px auto;
+}
+}
+@media(max-width:350px) {
+    .hero .hero_left h2 {
+        font-size: 22px;
+        
+        }
+        .hero .hero_left p {
+            font-size: 40px;
+        }
+
+}
+
