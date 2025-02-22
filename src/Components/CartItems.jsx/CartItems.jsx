@@ -19,7 +19,7 @@ const {all_products , cartItem  , removeFromCart} = useContext(ShopContext)
       </div>
               <hr />
 
-{all_products.map((ele) => {
+{/* {all_products.map((ele) => {
 
 if(cartItem[ele.id] > 0) {
   return <div>
@@ -40,9 +40,23 @@ if(cartItem[ele.id] > 0) {
 
 
 
-})}
+})} */}
 
-
+{all_products
+  .filter((ele) => cartItem[ele.id] > 0) // تصفية المنتجات التي لها كميات في السلة
+  .map((ele) => (
+    <div key={ele.id}> {/* إضافة مفتاح فريد */}
+      <div className="cartitems_format">
+        <img src={ele.image} alt="" className="cartIcon_product_icon"/>
+        <p className="cartitems_format_title">{ele.name}</p>
+        <p>${ele.new_price}</p>
+        <button className="cartItem_qountity">{cartItem[ele.id]}</button>
+        <p className="image_to_total">${ele.new_price * cartItem[ele.id]}</p>
+        <img className="image_to_remove" src={remove_icon} alt="" onClick={() => removeFromCart(ele.id)} />
+      </div>    
+      <hr/>
+    </div>
+  ))}
 
 
 
