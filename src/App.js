@@ -5,9 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Shop from './Pages/Shop/Shop';
 import Login from './Pages/Login/Login';
 import Cart from './Pages/Cart/Cart';
-import Mens from './Pages/Mens/Men';
-import Women from './Pages/Women/Women';
-import Kids from './Pages/Kids/Kids';
+
 import Product from './Pages/Product/Product';
 import Footer from './Components/Footer/Footer';
 import ShopCategory from './Pages/ShopCategory/ShopCategory';
